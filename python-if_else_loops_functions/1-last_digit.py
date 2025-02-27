@@ -7,7 +7,7 @@ number = random.randint(-10000, 10000)
 if number >= 0:
    lastDigit = number % 10
 else:
-   lastDigit = ((number * -1) % 10) * -1  # Get last digit for negative numbers
+   lastDigit = (((number * -1) % 10) * -1)  # Get last digit for negative numbers
 string = "Last digit of"
 
 # Conditional checks
