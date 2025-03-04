@@ -7,7 +7,6 @@ if number >= 0:
 else:
    lastDigit = (((number * -1) % 10) * -1)  # Get last digit for negative numbers
 string = "Last digit of"
-
 # Conditional checks
 if lastDigit > 5:
    print(f"{string} {number} is {lastDigit} and is greater than 5")
